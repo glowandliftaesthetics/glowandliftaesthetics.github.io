@@ -635,8 +635,9 @@ ul { list-style: none; }
 .ba-after  .ba-img-placeholder { background: linear-gradient(135deg, #E8D0C8, #D8C8C0); }
 .ba-half img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
+   display: block;
 }
 .ba-label {
   position: absolute;
