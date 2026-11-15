@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMEL Organic Cacay Oil | Face &amp; Body Skincare</title>
+
+  <!-- This page is in a subfolder; shared assets live one level above. -->
+  <link rel="icon" href="../favicon/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="../favicon/apple-touch-icon.png" />
+
+  <meta name="description" content="EMEL Organic Cacay Oil, 100% pure cold pressed, 1 fl oz (30 mL). Lightweight face and body moisturizing oil with omega-6 linoleic acid and vitamin E for soft, radiant-looking skin." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    /* This listing currently has no product image. Give the information full width. */
+    .product-grid.product-grid--no-photo {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      max-width: 780px;
+      margin-inline: auto;
+    }
+    .product-grid--no-photo .product-info { min-width: 0; }
+    .product-grid--no-photo .buy-box { margin-top: 1.5rem; }
+
+
+    /* Prevent the product title from sliding under the site header. */
+    .product-page { padding-top: max(6.5rem, 92px); }
+
+    /* Align the detail cards with the 780px product content above. */
+    .product-page .product-details {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: stretch;
+      gap: 1.25rem;
+      max-width: 780px;
+      margin: 2rem auto 0;
+    }
+    .product-page .product-details .detail-card {
+      box-sizing: border-box;
+      min-width: 0;
+      width: 100%;
+      margin: 0;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .product-page .product-details .detail-card.wide {
+      grid-column: 1 / -1;
+    }
+    .product-page .product-details .detail-card h3 {
+      text-align: left;
+      margin: 0 0 1rem;
+    }
+    .product-page .product-details .detail-card ul {
+      display: block;
+      list-style-type: disc;
+      list-style-position: outside;
+      margin: 0;
+      padding-left: 1.5rem;
+      text-align: left;
+    }
+    .product-page .product-details .detail-card li {
+      display: list-item;
+      text-align: left;
+      margin: 0 0 0.65rem;
+      padding: 0;
+    }
+    .product-page .product-details .detail-card li:last-child { margin-bottom: 0; }
+    .product-page .product-details .detail-card p {
+      text-align: left;
+      margin: 0 0 0.75rem;
+    }
+    @media (max-width: 700px) {
+      .product-page .product-details { grid-template-columns: minmax(0, 1fr); }
+      .product-page .product-details .detail-card.wide { grid-column: auto; }
+    }
+  </style>
+
+  <!-- PayPal cart script: once per page -->
+  <script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="A7AM3QWHJVJAS"></script>
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar" class="scrolled">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <img src="../logo/emel-logo-small.png" alt="EMEL" class="logo-img">
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html#procedures">Rituals</a></li>
+        <li><a href="../index.html#beforeafter">Before &amp; After</a></li>
+        <li><a href="../index.html#pricing">Pricing</a></li>
+        <li><a href="../index.html#shop">Shop</a></li>
+        <li><a href="../index.html#blog">Blog</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../index.html#booking">Book Now</a></li>
+        <li>
+          <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+          <script>
+            cartPaypal.Cart({ id: "pp-view-cart" })
+          </script>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── PRODUCT ── -->
+  <main class="product-page">
+    <div class="container">
+
+      <div class="product-grid product-grid--no-photo">
+        <!-- Optional product photo. Uncomment this block and remove
+             product-grid--no-photo above when your Cacay Oil photo is available.
+        <div class="product-photo">
+          <img src="organic-cacay-oil.jpg" width="1200" height="1200"
+               alt="EMEL Organic Cacay Oil bottle, 1 fl oz (30 mL)" />
+        </div>
+        -->
+
+        <div class="product-info">
+          <span class="shop-tag">Organic Botanical Skincare</span>
+          <h1>EMEL Organic Cacay Oil</h1>
+          <p class="product-sub">100% Pure Cold-Pressed Face &amp; Body Moisturizing Oil · Omega-6 &amp; Vitamin E · 1 fl oz (30 mL)</p>
+          <!-- Price is controlled by the existing PayPal button, whose code is unchanged. -->
+          <p class="product-desc">Experience nature’s golden touch with EMEL Organic Cacay Oil, a 100% pure, cold-pressed oil from the seeds of the Amazonian Cacay tree (<em>Caryodendron orinocense</em>). Naturally rich in omega-6 linoleic acid and containing vitamin E compounds, this lightweight botanical moisturizer helps soften dry skin, maintain moisture and promote a silky-smooth, radiant-looking complexion without a heavy, greasy feel.</p>
+
+          <ul class="product-badges">
+            <li>100% Pure Oil</li>
+            <li>Cold Pressed</li>
+            <li>Omega-6 Linoleic Acid</li>
+            <li>Face &amp; Body Care</li>
+          </ul>
+
+          <div class="buy-box">
+            <!-- PayPal Add to Cart: existing hosted button preserved -->
+            <paypal-add-to-cart-button data-id="CFSFEMNQVU9CY"></paypal-add-to-cart-button>
+            <script>
+              cartPaypal.AddToCart({ id: "CFSFEMNQVU9CY" });
+            </script>
+            <small>Secure checkout with PayPal. Use “View Cart” in the menu to review your order.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-details">
+        <div class="detail-card">
+          <h3>Benefits</h3>
+          <ul>
+            <li>Moisturizes and softens dry, rough-feeling skin</li>
+            <li>Contains omega-6 linoleic acid for botanical nourishment</li>
+            <li>Helps maintain the skin’s natural moisture barrier</li>
+            <li>Leaves skin feeling silky, smooth and supple</li>
+            <li>Promotes a fresh, healthy-looking glow</li>
+            <li>Helps soften the appearance of fine lines associated with dryness</li>
+            <li>Provides lightweight, comfortable face and body care</li>
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>How to use</h3>
+          <p><strong>Face &amp; neck:</strong> Apply 2–3 drops to clean, slightly damp skin. Gently massage until absorbed.</p>
+          <p><strong>Hands &amp; cuticles:</strong> Apply a few drops to dry areas and massage gently to soften and condition.</p>
+          <p><strong>Body:</strong> Smooth a small amount over areas that need additional moisture and nourishment.</p>
+          <p><strong>Daily routine:</strong> Use morning and evening, or whenever your skin needs extra moisture.</p>
+          <p><small>For external use only. Avoid contact with eyes. Discontinue use if irritation occurs.</small></p>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>Nature’s golden secret for radiant, youthful-looking skin</h3>
+          <p>Discover the luxurious power of nature with EMEL Premium Organic Cacay Oil, a 100% pure, cold-pressed botanical oil designed to nourish, moisturize and revitalize dry-looking skin. Extracted from the seeds of the Amazonian Cacay tree (<em>Caryodendron orinocense</em>), it provides essential fatty acids, naturally occurring vitamin E compounds and skin-conditioning botanical nutrients.</p>
+          <p>Often called “Amazonian Gold,” Cacay Oil is valued for its lightweight texture and moisturizing properties. It helps skin feel silky-soft without a heavy, greasy residue.</p>
+          <p><strong>Naturally rich in omega-6 linoleic acid:</strong> Cacay Oil is particularly rich in linoleic acid, an essential fatty acid that supports the skin’s natural moisture barrier, helps maintain moisture and promotes a softer, smoother, more supple complexion.</p>
+          <p><strong>Vitamin E – natural antioxidant nourishment:</strong> Naturally occurring vitamin E compounds, including tocopherols, contribute to the oil’s antioxidant profile and complement its skin-conditioning properties.</p>
+          <p><strong>Moisturizing care for fine lines and uneven texture:</strong> Dryness can make fine lines and skin texture more noticeable. Consistent use helps soften dry areas and improve the appearance of dryness-related fine lines, for a smoother-looking complexion.</p>
+          <p><strong>Lightweight, fast-absorbing feel:</strong> Cacay Oil provides a silky finish and comfortable daily moisturizing care without an overly oily sensation.</p>
+          <p>EMEL — experience nature’s golden touch for beautifully soft, nourished, radiant-looking skin.</p>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>About this item</h3>
+          <ul>
+            <li><strong>Premium Organic Cacay Oil – 100% Pure &amp; Cold Pressed:</strong> Discover the luxury of EMEL Cacay Oil, extracted from the seeds of the <em>Caryodendron orinocense</em> tree. This premium botanical oil nourishes and softens skin without unnecessary additives.</li>
+            <li><strong>Vitamin E &amp; Botanical Antioxidants:</strong> Cacay Oil naturally contains vitamin E compounds and is valued in botanical skincare for its nourishing fatty acid profile. Helps condition skin and promote a smoother, healthier-looking, radiant complexion.</li>
+            <li><strong>Omega-6 Linoleic Acid for Skin Nourishment:</strong> Naturally rich in linoleic acid, an essential fatty acid that helps support the skin’s moisture barrier, maintain softness and condition dry-looking skin.</li>
+            <li><strong>Lightweight Moisture &amp; Smoother-Looking Skin:</strong> This luxurious oil helps soften rough, dry skin and improve the appearance of texture and fine lines caused by dryness. Ideal for daily facial and body moisturizing.</li>
+            <li><strong>Versatile Daily Face &amp; Body Care:</strong> Apply a few drops to clean skin and gently massage until absorbed. Perfect for face, neck, hands and body, morning or evening. Convenient 1 fl oz (30 mL) pump bottle.</li>
+          </ul>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>What makes cacay oil special?</h3>
+          <ul>
+            <li><strong>Omega-6 Linoleic Acid:</strong> An essential fatty acid that helps keep skin feeling conditioned, soft and supple.</li>
+            <li><strong>Vitamin E (Tocopherols):</strong> Naturally occurring antioxidant-associated compounds complement the oil’s nourishing qualities.</li>
+            <li><strong>Lightweight Botanical Emollient:</strong> Delivers silky moisture to rough or dry-feeling skin without a heavy finish.</li>
+            <li><strong>Simple Single-Ingredient Formula:</strong> Pure Cacay Seed Oil with no added fragrances, parabens or fillers.</li>
+          </ul>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>Pure botanical beauty</h3>
+          <p>EMEL Organic Cacay Oil is carefully cold-pressed to help preserve its naturally occurring botanical components. This premium, single-ingredient oil contains no added fragrances, parabens or unnecessary fillers.</p>
+          <p>Enjoy the simplicity of pure plant-based skincare and give your skin the nourishment it deserves.</p>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>Ideal for</h3>
+          <p>Normal, dry, dull-looking and mature-looking skin seeking moisture, softness and a radiant finish. Suitable for moisturizing the face, neck, hands, cuticles and body.</p>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>Product details</h3>
+          <p><strong>Brand:</strong> EMEL</p>
+          <p><strong>Product:</strong> Organic Cacay Seed Oil</p>
+          <p><strong>Botanical name:</strong> <em>Caryodendron orinocense</em></p>
+          <p><strong>Extraction method:</strong> Cold pressed</p>
+          <p><strong>Formulation:</strong> 100% pure single-ingredient botanical oil</p>
+          <p><strong>Application:</strong> Face, neck, hands, cuticles and body</p>
+          <p><strong>Net volume:</strong> 1 fl oz (30 mL)</p>
+        </div>
+
+        <div class="detail-card wide">
+          <h3>Ingredients (INCI)</h3>
+          <p>Caryodendron Orinocense Seed Oil.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-lift">YOUR GLOW &amp; LIFT</span>
+        <p>Revealing your most radiant self — one treatment at a time.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#beforeafter">Before &amp; After</a></li>
+          <li><a href="../index.html#pricing">Pricing</a></li>
+          <li><a href="../index.html#shop">Shop</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Lift &amp; Glow Aesthetics. All rights reserved.</p>
+      <p>Dist. by Glow and Lift Aesthetics · Naples, Florida 34120 · Made in USA</p>
+    </div>
+  </footer>
+
+  <script>
+    // mobile menu (same behaviour as the home page)
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.classList.toggle('active', open);
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+  </script>
+</body>
+</html>
